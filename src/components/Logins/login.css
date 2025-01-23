@@ -1,0 +1,93 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color:#6433d8;
+    display: flex;
+    padding: 100px 200px;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px 0px 0px 10px;
+    padding: 80px;
+    border-right: 1px solid black;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    background-color:white;
+    border-radius:  0px 10px 10px 0px;
+    display: flex;
+    flex-direction: column; 
+    padding: 80px ;
+    gap: 50px;
+    
+}
+.title-div{
+    height: 20%;
+}
+.title1{
+    color: #6433d8;
+}
+.title2{
+    color: black;
+}
+.donatelogo-div{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+}
+.donate{
+    width: 100%;
+    height: 100%;
+}
+.textbox1{
+    display: flex;
+    height: 50px;
+    /* background-color: red; */
+    border-bottom: 2px solid black;
+
+}
+.icon-div{
+    width: 10%;
+    /* background-color: wheat; */
+    display: flex;
+    align-items: center;
+}
+.icons {
+    width: 100%;
+}
+.textbox{
+     width: 90%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+.login-btn{
+    background-color:#7138f4;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    outline: none;
+}
+.login-btn:hover{
+    background-color:#6433d8;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    outline: none;
+}

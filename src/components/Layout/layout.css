@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.layout-container{
+    width: 100%;
+    height: 100vh;
+    background-color:#eef1f8;
+    display: flex;
+}
+.layout-sidemenus{
+    width: 25%;
+    height: 100%;
+    background-color:#ffff;
+    display: flex;
+    flex-direction: column;
+}
+.layout-logoimages{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+}
+.logos{
+    width: 100%;
+    height: 100%;
+    /* padding: 30px; */
+}
+.layout-menus-item{
+    color: #848586;
+    padding: 15px;
+}
+/* .menu-label{
+    /* color: #b0b3ba;
+} */
+.layout-menus-active{
+    color:#9200c3 ;
+    background-color:#faebfe ;
+}
+/* #b0b3ba icon and text color */
+/* #faebfe  menus icon and text hover bg */
+/* #9200c3 menus text hover time only color */
