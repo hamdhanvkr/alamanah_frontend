@@ -16,19 +16,26 @@ function SideLayout() {
       icon: faHome,
       name: 'Dashboard',
       path: `/alamanah/${username}/dashboard`,
-      // show: username === 'ADMIN'
     },
     {
       icon: faFileAlt,
       name: 'Member Details',
       path: `/alamanah/${username}/members`,
-      // show: username === 'ADMIN'
+    },
+    {
+      icon: faFileAlt,
+      name: 'Amount Entry',
+      path: `/alamanah/${username}/amountentry`,
+    },
+    {
+      icon: faFileAlt,
+      name: 'Distribution Details',
+      path: `/alamanah/${username}/distribution`,
     }
   ];
 
   const handleLogout = () => {
     navigate('/');
-
 
   }
 

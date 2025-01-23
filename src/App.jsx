@@ -4,6 +4,8 @@ import Login from './components/Logins/login';
 import Layout from './components/Layout/layout';
 import Dashboard from './components/Dashboard/dashboard';
 import Members from './components/Memberdetails/member';
+import Amountentry from './components/Amountentry/amountentry';
+import Distribution from './components/Distributiondetails/distribution';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <Route path='/alamanah/:username' element={<Layout />} >
           <Route path='dashboard' element={<Dashboard />} />
           <Route path='members' element={<Members />} />
+          <Route path='amountentry' element={<Amountentry />} />
+          <Route path='distribution' element={<Distribution />} />
         </Route>
       </Routes>
     </Router>
