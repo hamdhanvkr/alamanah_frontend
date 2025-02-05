@@ -5,12 +5,13 @@ import axios from 'axios';
 const member = () => {
 
   const [memberdetails, setMemberdetails] = useState([])
+
   const apiUrl = import.meta.env.VITE_API_URL;
 
   useEffect(() => {
     const memberdetails = async () => {
       try {
-        const response = await axios.get(`${apiUrl}/memberdetails`)
+        const response = await axios.get(`${apiUrl}/api/memberdetails`)
         setMemberdetails(response.data)
       }
       catch (error) {
